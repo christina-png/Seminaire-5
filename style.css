@@ -1,0 +1,169 @@
+body{
+	background-color: white;
+	font-size: 14px;
+	border: none;
+	padding: 0;
+	margin: 0;
+	font-family: arial,sans-serif;
+}
+
+section
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+section header
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px;
+}
+
+section header ul 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section header ul li 
+{
+	list-style: none;
+	margin-left: 10px;
+}
+
+section header ul li a 
+{
+	color: #111;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+section header ul li button
+{
+	background: #4584ef;
+	border: none;
+	outline: none;
+	padding: 8px 14px;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 700px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.box {
+	border: 0.1px solid #000;
+	position: absolute;
+	top: 50%; 
+	left: 700px;
+	transform: translate(-50%,-50%);
+	padding: 10px;
+	height: 30px;
+	width: 500px;
+	border-radius: 40px;
+	box-shadow: 1px 1px 4px #000;
+}
+
+.input-box
+{
+	margin-left: 15px; 
+	width: 400px;
+	height: 20px;
+	outline: none;
+	background : transparent;
+	border: none;
+	font-size: 15px;
+
+}
+
+.loupe
+{
+	float: left;
+	width: 30px;
+	height: 30px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.microphone
+{
+	float: right;
+	width: 30px;
+	height: 30px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.google
+{
+	position: absolute;
+	top: 50px;
+	left: 250px;
+	transform: translate(-50%,-50%);
+}
+
+.logo
+{
+	padding-bottom: 300px;
+}
+
+.button
+{
+	padding: 8px;
+	border: none;
+	position: absolute;
+	top: 420px;
+	left: 690px;
+	transform: translate(-50%,-50%);
+}
+
+.btn
+{
+	margin: 150px 10px 0 0;
+	font-size: 15px;
+	padding: 8px 15px;
+	color: grey;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn:hover
+{
+	border: 1px solid #a4a4a4a4;
+	border-radius: 5px;
+}
+
+.footer
+{
+	padding-right: 16px;
+	padding-left: 16px;
+	background-color: lightgray;
+}
+
+.ligne1
+{
+	border-bottom: 1px solid grey;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.ligne2
+{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 16px; 
+	padding-bottom: 16px;
+}
+
